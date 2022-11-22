@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  provider-transaction-consult:
+    container_name: "php-apache"
+    build:
+      context: ./
+    environment:
+      - PORT=80
+      - APP_ENV=dev
+    ports:
+    - "81:80"
