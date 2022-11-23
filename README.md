@@ -100,12 +100,17 @@ Response
 ```
 ## Running Tests
 
-To run tests, run the following command
+To run tests in Docker, run the following command
+
+```bash
+  docker exec -it php-apache php bin/phpunit
+```
+
+To run tests locally, run the following command
 
 ```bash
   php bin/phpunit
 ```
-
 
 ## Authors
 
